@@ -1,0 +1,39 @@
+#mood checker
+
+mood = input("What is your mood today?")
+
+if mood == "happy":
+    print("It is great to see you happy!")
+elif mood == "nervous":
+    print("Take a deep breath 3 times.")
+elif mood == "sad":
+    print("ok")
+elif mood == "excited":
+    print ("aha")
+elif mood == "relaxed":
+    print ("very good")
+else: print ("I can't recognize this mood")
+
+
+#guess the secret number
+secret = "3"
+secret = input("Rate eine Zahl zwischen 1 und 10:")
+if secret == "3":
+    print ("congratulations")
+else: print ("versuche es nochmal")
+
+#calculator
+Zahl1=int(input("1.Zahl"))
+Zahl2=int(input("2.Zahl"))
+Rechenzeichen=input("addieren? (+), subtrahieren? (-), multiplizieren? (*), dividieren? (/)")
+
+Ergebnis = 0
+if Rechenzeichen == "+":
+    Ergebnis = Zahl1+Zahl2
+if Rechenzeichen == "-":
+    Ergebnis = Zahl1-Zahl2
+if Rechenzeichen == "*":
+    Ergebnis = Zahl1*Zahl2
+if Rechenzeichen == "/":
+    Ergebnis = Zahl1/Zahl2
+print("das Ergebnis =", Ergebnis)
