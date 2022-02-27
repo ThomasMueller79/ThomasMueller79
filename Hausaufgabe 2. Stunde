@@ -1,0 +1,21 @@
+# FizzBuzz
+zahl = int(input("Gebe eine Zahl zwischen 1 und 100 ein:"))
+print("Deine Zahl:", zahl)
+
+# Prüfe, ob die eingegebene Zahl durch 3 oder 5 teilbar ist
+
+for zahl in range (1, zahl+1):
+    if zahl % 3 == 0:
+        print("fizz")
+    elif zahl % 5 == 0:
+        print("buzz")
+    elif zahl % 3 == 0 and zahl / 5 == 0:
+        print("fizzbuzz")
+    else:print(zahl)
+
+
+#make string lowercase
+text = (input("Gebe einen Text ein:"))
+print(text)
+print("Und so sieht Dein Text in Kleinbuchstaben aus:")
+print(text.lower())
